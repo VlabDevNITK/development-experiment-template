@@ -1,19 +1,3 @@
-# Steps to Create an Experiment
-Welcome to the experiment development process for developers involved in the Virtual Labs project. This guide will help you create an experiment designed to explain the lab topic. 
-
-## Verify and Understand the Experiment Repositories
-Begin by thoroughly reviewing and understanding the structure and purpose of the experiment repositories. For more details visit [here](https://vlead.vlabs.ac.in/development/#development-process)
-
-## Repository Creation
-The VLEAD team will create a GitHub repository for each experiment. The write access to these repositories is a must to be able to create, edit or modify the experiment. You can refer to this [example repository](https://github.com/virtual-labs-cms/exp-template) to get familiar with the structure and format.
-
-## Branch Structure
-Each repository will contain four branches:
-* **dev** (development)
-* **testing** (end-to-end testing)
-* **gh-pages** (for GitHub Pages hosting)
-* **main** (production-ready)
-Developers are required to work exclusively in the dev branch. Once the dev branch has been fully tested, it should be merged into the testing branch. This will automatically deploy the experiment and user interface to GitHub Pages for testing. The link to the deployed page can be found in the 'About' section of the experiment repository.
 
 ## Content for Experiment Development
 The content for each experiment should be organized across the designated pages. Please maintain the existing file names and only populate the current files with the content of your experiment.
@@ -82,18 +66,3 @@ For the simulation page to work, the main HTML file must be named index.html. No
 
 7. ### reference.md
 This section lists all sources and references used in the development of the experiment. Properly citing sources provides students with a better understanding of the topic and encourages further reading. 
-
-### Do’s and Don’ts:
-**Do’s:**
-* Always use the dev branch for development and merge changes into the testing branch after testing. The main branch should only contain thoroughly tested code.
-* Follow best practices in the development process, as outlined in [here](https://vlead.vlabs.ac.in/development/#best-practices).
-* For the simulation page to work, the main HTML file must be named index.html
-
-**Don’ts:**
-* Avoid adding unnecessary files to the repository.
-* Never delete the gh-pages branch, as it is critical for the automatic deployment of the experiment and its user interface to GitHub Pages for testing purposes.
-
-For more information on the development process, refer to 
-* [Virtual Labs Onboarding Process](https://vlead.vlabs.ac.in/development/#onboarding-process)
-* [Virtual Labs Development Process](https://vlead.vlabs.ac.in/development/#development-process)
-* [Virtual Labs Hosting Process](https://vlead.vlabs.ac.in/development/#hosting-process)
